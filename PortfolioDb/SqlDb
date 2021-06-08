@@ -1,0 +1,9 @@
+FROM microsoft/mssql-server-linux
+WORKDIR /var/opt/sqlserver
+ENV MSSQL_SA_PASSWORD=123456Ltl. \
+	ACCEPT_EULA=Y  \
+    MSSQL_PID=Express \
+    MSSQL_BACKUP_DIR="/var/opt/sqlserver"  \
+    MSSQL_DATA_DIR="/var/opt/sqlserver"  \ 
+    MSSQL_LOG_DIR="/var/opt/sqlserver" 
+EXPOSE 1433

@@ -126,4 +126,4 @@ C:\Users\22984\Desktop\portfolio\PortfolioDb\PortfolioDb\obj\Debug\netcoreapp3.1
 C:\Users\22984\Desktop\portfolio\PortfolioDb\PortfolioDb\obj\Debug\netcoreapp3.1\PortfolioDb.dll
 C:\Users\22984\Desktop\portfolio\PortfolioDb\PortfolioDb\obj\Debug\netcoreapp3.1\PortfolioDb.pdb
 C:\Users\22984\Desktop\portfolio\PortfolioDb\PortfolioDb\obj\Debug\netcoreapp3.1\PortfolioDb.genruntimeconfig.cache
-C:\Users\22984\Desktop\portfolio\PortfolioDb\PortfolioDb\obj\Debug\netcoreapp3.1\PortfolioDb.csproj.AssemblyReference.cache
+C:\Users\22984\Desktop\Portfolio\PortfolioDb\PortfolioDb\obj\Debug\netcoreapp3.1\PortfolioDb.csproj.AssemblyReference.cache

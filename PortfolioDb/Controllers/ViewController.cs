@@ -6,6 +6,7 @@ using PortfolioDb.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -18,11 +19,15 @@ namespace PortfolioDb.Controllers
     public class ViewController : ControllerBase
     {
         private readonly PortfolioDbContext _context;
+
         private readonly ViewHelper _viewHelper;
+
+        private static HashSet<string> checker;
         public ViewController(PortfolioDbContext context, ViewHelper viewHelper)
         {
             _context = context;
             _viewHelper = viewHelper;
+            checker = new HashSet<string>();
         }
 
         // GET api/view
@@ -53,6 +58,8 @@ namespace PortfolioDb.Controllers
         {
             if (name == null)
                 return BadRequest();
+            //avoid inserting multiple same data
+            Thread.Sleep(150);
 
             View view = await _context.Views
                 .FirstOrDefaultAsync(v => v.PageName.ToLower() == name.ToLower());

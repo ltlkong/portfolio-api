@@ -99,7 +99,7 @@ namespace PortfolioDb.Controllers
             return NotFound();
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             Blog blog = await _blogHelper.DeleteByAsync(id);

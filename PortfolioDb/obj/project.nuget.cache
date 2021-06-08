@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/K1nY6xV9FmRV1MhPDC11sXfbYAl4+KwuVYWykn4SVfk+7cl7ulmJ4/JO0zmmMOhGUxOafVT7YD6IFwWQgYkZg==",
+  "dgSpecHash": "1UIbuvxwAkGJFpw1EEAvH9DpfPxU6yNG+1/rCQ7COi81Baa04KLracDBocEebXdOUkYycFuw9iUwVUt3B2KByQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\22984\\Desktop\\Portfolio\\PortfolioDb\\PortfolioDb\\PortfolioDb.csproj",
+  "projectFilePath": "C:\\Users\\22984\\Desktop\\portfolio\\PortfolioDb\\PortfolioDb\\PortfolioDb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\22984\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\22984\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -32,6 +32,7 @@
     "C:\\Users\\22984\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.6.0\\microsoft.identitymodel.tokens.5.6.0.nupkg.sha512",
     "C:\\Users\\22984\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\22984\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
+    "C:\\Users\\22984\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.14\\microsoft.visualstudio.azure.containers.tools.targets.1.10.14.nupkg.sha512",
     "C:\\Users\\22984\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\22984\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\22984\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",

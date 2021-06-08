@@ -1,0 +1,30 @@
+version: "3.9"
+
+services: 
+  db:
+    build:
+        context: .
+        dockerfile: ./SqlDb
+    volumes:
+       - ./DbData:/var/opt/sqlserver
+    ports:
+        - "1439:1433"
+  api:
+    build: 
+      context: ../
+      dockerfile: ./PortfolioDb/BackendRuntime
+    ports: 
+        - "5005:80"
+    depends_on:
+        - db
+        - dbupdate
+  dbupdate:
+    build: 
+      context: ../
+      dockerfile: ./PortfolioDb/DbUpdate
+    depends_on:
+        - db
+
+
+
+    
