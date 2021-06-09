@@ -4,8 +4,9 @@ COPY ["PortfolioDb/PortfolioDb.csproj", "PortfolioDb/"]
 RUN dotnet restore "PortfolioDb/PortfolioDb.csproj"
 COPY . .
 WORKDIR "/src/PortfolioDb"
+VOLUME ["DbData", "./data"]
 ENTRYPOINT 	sleep 5 &&\
-			echo start &&\
+			echo "start build" &&\
 			dotnet tool restore &&\
 			dotnet ef database update &&\
 			echo finish updating
