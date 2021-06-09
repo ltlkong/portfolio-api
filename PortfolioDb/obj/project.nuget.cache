@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1UIbuvxwAkGJFpw1EEAvH9DpfPxU6yNG+1/rCQ7COi81Baa04KLracDBocEebXdOUkYycFuw9iUwVUt3B2KByQ==",
+  "dgSpecHash": "gvG04FZfOSPAevB6O0YywsPQrB/TZijhkRhlVDt9QeLAjtQHeGHK7yGLzDy6+3t00r2p7QPIN9/Aoy+y5yxVHw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\22984\\Desktop\\portfolio\\PortfolioDb\\PortfolioDb\\PortfolioDb.csproj",
+  "projectFilePath": "C:\\Users\\22984\\Desktop\\Portfolio\\PortfolioDb\\PortfolioDb\\PortfolioDb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\22984\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\22984\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

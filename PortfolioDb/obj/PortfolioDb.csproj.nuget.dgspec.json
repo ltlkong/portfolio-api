@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\22984\\Desktop\\portfolio\\PortfolioDb\\PortfolioDb\\PortfolioDb.csproj": {}
+    "C:\\Users\\22984\\Desktop\\Portfolio\\PortfolioDb\\PortfolioDb\\PortfolioDb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\22984\\Desktop\\portfolio\\PortfolioDb\\PortfolioDb\\PortfolioDb.csproj": {
+    "C:\\Users\\22984\\Desktop\\Portfolio\\PortfolioDb\\PortfolioDb\\PortfolioDb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\22984\\Desktop\\portfolio\\PortfolioDb\\PortfolioDb\\PortfolioDb.csproj",
+        "projectUniqueName": "C:\\Users\\22984\\Desktop\\Portfolio\\PortfolioDb\\PortfolioDb\\PortfolioDb.csproj",
         "projectName": "PortfolioDb",
-        "projectPath": "C:\\Users\\22984\\Desktop\\portfolio\\PortfolioDb\\PortfolioDb\\PortfolioDb.csproj",
+        "projectPath": "C:\\Users\\22984\\Desktop\\Portfolio\\PortfolioDb\\PortfolioDb\\PortfolioDb.csproj",
         "packagesPath": "C:\\Users\\22984\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\22984\\Desktop\\portfolio\\PortfolioDb\\PortfolioDb\\obj\\",
+        "outputPath": "C:\\Users\\22984\\Desktop\\Portfolio\\PortfolioDb\\PortfolioDb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\22984\\AppData\\Roaming\\NuGet\\NuGet.Config",
