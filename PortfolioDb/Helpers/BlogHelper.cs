@@ -12,7 +12,7 @@ namespace PortfolioDb.Helpers
         Time,
         View
     }
-    public class BlogHelper:IAsyncHelper<Blog>
+    public class BlogHelper
     {
         private readonly PortfolioDbContext _context;
 

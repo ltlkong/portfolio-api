@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PortfolioDb.Helpers
 {
-    public class DrawingHelper : IAsyncHelper<Drawing>
+    public class DrawingHelper
     {
         private readonly PortfolioDbContext _context;
 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PortfolioDb.Helpers
 {
-    public class ViewHelper : IAsyncHelper<View>
+    public class ViewHelper
     {
         private readonly PortfolioDbContext _context;
         public ViewHelper(PortfolioDbContext context)

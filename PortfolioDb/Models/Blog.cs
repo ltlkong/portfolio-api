@@ -16,9 +16,15 @@ namespace PortfolioDb.Models
         }
 
         public int Id { get; set; }    
+        [MaxLength(100)]
+        [Required]
         public string Title { get; set; }
+        [Required]
+        [MaxLength(200)]
         public string Description { get; set; }
+        [Required]
         public string Article { get; set; }
+        [MaxLength(120)]
         public string ImgUrl { get; set; }
         public DateTime DateCreated { get; set; }
         [JsonIgnore]

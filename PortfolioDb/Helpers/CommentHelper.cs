@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PortfolioDb.Helpers
 {
-    public class CommentHelper : IAsyncHelper<Comment>
+    public class CommentHelper
     {
         private readonly PortfolioDbContext _context;
 

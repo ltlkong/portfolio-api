@@ -12,7 +12,8 @@ namespace PortfolioDb.Models
         [Required]
         public string Author { get; set; }
         [Required]
-        public string imgUrl { get; set; }
+        [MaxLength(120)]
+        public string ImgUrl { get; set; }
         public DateTime DatePut { get; set; }
     }
 }

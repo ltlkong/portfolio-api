@@ -4,7 +4,7 @@ services:
   db:
     build:
         context: .
-        dockerfile: ./SqlDb
+        dockerfile: ./DockerFiles/Sql/DockerFile
     volumes:
        - ./DbData:/var/opt/sqlserver
     ports:
@@ -12,7 +12,7 @@ services:
   api:
     build: 
       context: ../
-      dockerfile: ./PortfolioDb/BackendRuntime
+      dockerfile: ./PortfolioDb/DockerFiles/Runtime/DockerFile
     ports: 
         - "5005:80"
     depends_on:
@@ -21,7 +21,7 @@ services:
   dbupdate:
     build: 
       context: ../
-      dockerfile: ./PortfolioDb/DbUpdate
+      dockerfile: ./PortfolioDb/DockerFiles/CreateDb/DockerFile
     depends_on:
         - db
 

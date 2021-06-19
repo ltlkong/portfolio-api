@@ -22,12 +22,10 @@ namespace PortfolioDb.Controllers
 
         private readonly ViewHelper _viewHelper;
 
-        private static HashSet<string> checker;
         public ViewController(PortfolioDbContext context, ViewHelper viewHelper)
         {
             _context = context;
             _viewHelper = viewHelper;
-            checker = new HashSet<string>();
         }
 
         // GET api/view
@@ -58,8 +56,9 @@ namespace PortfolioDb.Controllers
         {
             if (name == null)
                 return BadRequest();
+
             //avoid inserting multiple same data
-            Thread.Sleep(150);
+            Thread.Sleep(200);
 
             View view = await _context.Views
                 .FirstOrDefaultAsync(v => v.PageName.ToLower() == name.ToLower());

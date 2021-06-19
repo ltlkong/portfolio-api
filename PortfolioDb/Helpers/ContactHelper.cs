@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PortfolioDb.Helpers
 {
-    public class ContactHelper : IAsyncHelper<Contact>
+    public class ContactHelper
     {
         private readonly PortfolioDbContext _context;
         public ContactHelper(PortfolioDbContext context)
