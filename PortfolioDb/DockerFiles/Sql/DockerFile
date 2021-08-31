@@ -1,6 +1,6 @@
-FROM microsoft/mssql-server-linux
+FROM mcr.microsoft.com/mssql/server:2017-latest-ubuntu  
 WORKDIR /var/opt/sqlserver
-ENV MSSQL_SA_PASSWORD=123456Ltl. \
+ENV SA_PASSWORD=123456Ltl. \
 	ACCEPT_EULA=Y  \
     MSSQL_PID=Express \
     MSSQL_BACKUP_DIR="/var/opt/sqlserver"  \
